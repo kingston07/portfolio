@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Coffee Kadai - Coffee Shop</title>
+    <style>
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        h2{
+            font-size: 2rem;
+            margin-top: 0px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('coffee-shop-background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+            line-height: 1.6;
+            margin: 0;
+            height: 100%; /* Ensure the body fits the screen */
+        }
+        a {
+            text-decoration: none;
+            color: rgb(175 103 27);
+        }
+        nav {
+            background-color: rgb(255, 255, 255);
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-left: 50px;
+        }
+        ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            font-weight: bold;
+        }
+        ul li {
+            margin-right: 50px;
+        }
+        .menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        .landing {
+            height: 75%;
+            background-color: rgba(0, 0, 0, 0.856);
+            text-align: center;
+            padding-top: 80px;
+            margin-bottom: -80px;
+        }
+        .landing h1 {
+            font-size: 5rem;
+            margin-top: 20px;
+            letter-spacing: 3px; /* Added letter-spacing for emphasis */
+        }
+        .landing p {
+            font-size: 1.2rem;
+            color: #F4F4F4;
+            margin-top: 10px;
+        }
+        .btncontainer {
+            margin-top: 30px;
+        }
+        .studentbtn, .adminbtn {
+            border: 2px solid white;
+            background-color: none;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bolder;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+        }
+        .adminbtn {
+            border-color: white;
+            background-color: rgb(175 103 27);
+        }
+        .logoimgi img {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href=""><img src="coffeekadai-logo.png" alt=""></a>
+        </div>
+        <ul>
+            <li><a href="">Menu</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Locations</a></li>
+        </ul>
+    </nav>
+    <div class="landing">
+        <h1>Coffee Kadai</h1>
+        <h2>The Perfect Coffee Shop</h2>
+        <p>Discover the joy of exceptional coffee and delightful desserts at Coffee Kadai,<br>all in a warm, inviting atmosphere.</p>
+        <div class="btncontainer">
+            <a href="" class="studentbtn">Order Online</a>
+            <a href="" class="adminbtn">Visit Us</a>
+        </div>
+    </div>   
+</body>
+</html>
